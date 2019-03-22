@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  // Power Ups
+  <entity>
+    <name>power0</name>
+    <components>
+      <position>-17.0, 0.05, -15.0</position>
+      <transform>0.5, 1.0, 0.5, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/powerup.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.05</animator>
+      <audio>Audio/sfx_alarm_loop3.wav, 0.5, true, true</audio>
+    </components>
+  </entity>
+  <entity>
+    <name>power1</name>
+    <components>
+      <position>17.0, 0.05, -15.0</position>
+      <transform>0.5, 1.0, 0.5, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/powerup.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.05</animator>
+      <audio>Audio/sfx_alarm_loop3.wav, 0.5, true, true</audio>
+    </components>
+  </entity>
+  <entity>
+    <name>power2</name>
+    <components>
+      <position>-17.0, 0.05, 15.0</position>
+      <transform>0.5, 1.0, 0.5, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/powerup.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.05</animator>
+      <audio>Audio/sfx_alarm_loop3.wav, 0.5, true, true</audio>
+    </components>
+  </entity>
+  <entity>
+    <name>power3</name>
+    <components>
+      <position>17.0, 0.05, 15.0</position>
+      <transform>0.5, 1.0, 0.5, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/powerup.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.05</animator>
+      <audio>Audio/sfx_alarm_loop3.wav, 0.5, true, true</audio>
+    </components>
+  </entity>
+  // Left side
+  <entity>
+    <name>coin0</name>
+    <components>
+      <position>-6.0, 0.05, 0.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin1</name>
+    <components>
+      <position>-6.0, 0.05, 2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin2</name>
+    <components>
+      <position>-6.0, 0.05, 4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin3</name>
+    <components>
+      <position>-6.0, 0.05, 6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin4</name>
+    <components>
+      <position>-6.0, 0.05, 8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin5</name>
+    <components>
+      <position>-6.0, 0.05, 10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin6</name>
+    <components>
+      <position>-6.0, 0.05, -2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin7</name>
+    <components>
+      <position>-6.0, 0.05, -4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin8</name>
+    <components>
+      <position>-6.0, 0.05, -6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin9</name>
+    <components>
+      <position>-6.0, 0.05, -8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin10</name>
+    <components>
+      <position>-6.0, 0.05, -10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+    </components>
+  </entity>
+  // Right side
+  <entity>
+    <name>coin11</name>
+    <components>
+      <position>6.0, 0.05, 0.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin12</name>
+    <components>
+      <position>6.0, 0.05, 2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin13</name>
+    <components>
+      <position>6.0, 0.05, 4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin14</name>
+    <components>
+      <position>6.0, 0.05, 6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin15</name>
+    <components>
+      <position>6.0, 0.05, 8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin16</name>
+    <components>
+      <position>6.0, 0.05, 10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin17</name>
+    <components>
+      <position>6.0, 0.05, -2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin18</name>
+    <components>
+      <position>6.0, 0.05, -4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin19</name>
+    <components>
+      <position>6.0, 0.05, -6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin20</name>
+    <components>
+      <position>6.0, 0.05, -8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin21</name>
+    <components>
+      <position>6.0, 0.05, -10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  // Far Left side
+  <entity>
+    <name>coin22</name>
+    <components>
+      <position>-17.0, 0.05, 0.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin23</name>
+    <components>
+      <position>-17.0, 0.05, 2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin24</name>
+    <components>
+      <position>-17.0, 0.05, 4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin25</name>
+    <components>
+      <position>-17.0, 0.05, 6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin26</name>
+    <components>
+      <position>-17.0, 0.05, 8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin27</name>
+    <components>
+      <position>-17.0, 0.05, 10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin28</name>
+    <components>
+      <position>-17.0, 0.05, -2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin29</name>
+    <components>
+      <position>-17.0, 0.05, -4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin30</name>
+    <components>
+      <position>-17.0, 0.05, -6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin31</name>
+    <components>
+      <position>-17.0, 0.05, -8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin32</name>
+    <components>
+      <position>-17.0, 0.05, -10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  // Far Right side
+  <entity>
+    <name>coin33</name>
+    <components>
+      <position>17.0, 0.05, 0.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin34</name>
+    <components>
+      <position>17.0, 0.05, 2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin35</name>
+    <components>
+      <position>17.0, 0.05, 4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin36</name>
+    <components>
+      <position>17.0, 0.05, 6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin37</name>
+    <components>
+      <position>17.0, 0.05, 8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin38</name>
+    <components>
+      <position>17.0, 0.05, 10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin39</name>
+    <components>
+      <position>17.0, 0.05, -2.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin40</name>
+    <components>
+      <position>17.0, 0.05, -4.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin41</name>
+    <components>
+      <position>17.0, 0.05, -6.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin42</name>
+    <components>
+      <position>17.0, 0.05, -8.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin43</name>
+    <components>
+      <position>17.0, 0.05, -10.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  // Top side
+  <entity>
+    <name>coin44</name>
+    <components>
+      <position>-8.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin45</name>
+    <components>
+      <position>-6.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin46</name>
+    <components>
+      <position>-4.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin47</name>
+    <components>
+      <position>-2.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin48</name>
+    <components>
+      <position>0.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin49</name>
+    <components>
+      <position>2.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin50</name>
+    <components>
+      <position>4.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin51</name>
+    <components>
+      <position>6.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin52</name>
+    <components>
+      <position>8.0, 0.05, -20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  // Top side
+  <entity>
+    <name>coin53</name>
+    <components>
+      <position>-8.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin54</name>
+    <components>
+      <position>-6.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+    </components>
+  </entity>
+  <entity>
+    <name>coin55</name>
+    <components>
+      <position>-4.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin56</name>
+    <components>
+      <position>-2.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin57</name>
+    <components>
+      <position>0.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin58</name>
+    <components>
+      <position>2.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin59</name>
+    <components>
+      <position>4.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin60</name>
+    <components>
+      <position>6.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+  <entity>
+    <name>coin61</name>
+    <components>
+      <position>8.0, 0.05, 20.0</position>
+      <transform>0.25, 0.25, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/coin.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <animator>0.0, 1.0, 0.0, 0.02</animator>
+      
+    </components>
+  </entity>
+</entities>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  // SkyBoxs and Ground
+  <entity>
+    <name>SkyBox</name>
+    <components>
+      <position>0.0, 0.0, 0.0</position>
+      <transform>50.0, 20.0, 50.0, 3.14, 0.0, 0.0</transform>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <skybox>Textures/Skybox/right.jpg, Textures/Skybox/left.jpg, Textures/Skybox/top.jpg, Textures/Skybox/bottom.jpg, Textures/Skybox/front.jpg, Textures/Skybox/back.jpg</skybox>
+    </components>
+  </entity>
+  <entity>
+    <name>Floor</name>
+    <components>
+      <position>0.0, -1.0, 0.0</position>
+      <transform>25.0, 1.0, 25.0, 1.57, 0.0, 0.0</transform>
+      <texture>Textures/BrickGrey.jpg, 10</texture>
+      <geometry>Geometry/SquareGeometry.txt</geometry>
+    </components>
+  </entity>
+  // Outside Walls
+  <entity>
+    <name>FarL</name>
+    <components>
+      <position>-25.0, -1.6, 0.0</position>
+      <transform>0.25, 4.0, 25.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGrey.jpg, 3</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>FarR</name>
+    <components>
+      <position>25.0, -1.6, 0.0</position>
+      <transform>0.25, 4.0, 25.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGrey.jpg, 3</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>FarT</name>
+    <components>
+      <position>0.0, -1.6, -25.0</position>
+      <transform>25, 4.0, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGrey.jpg, 3</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>FarB</name>
+    <components>
+      <position>0.0, -1.6, 25.0</position>
+      <transform>25, 4.0, 0.25, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGrey.jpg, 3</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  // Center Box
+  <entity>
+    <name>CenterL</name>
+    <components>
+      <position>-3.0, 0.0, 0.0</position>
+      <transform>0.5, 1.0, 3.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>CenterR</name>
+    <components>
+      <position>3.0, 0.0, 0.0</position>
+      <transform>0.5, 1.0, 3.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>CenterB</name>
+    <components>
+      <position>0.0, 0.0, 3.5</position>
+      <transform>3.5, 1.0, 0.5, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  // Corner Squares
+  <entity>
+    <name>TLSquare</name>
+    <components>
+      <position>-17.0, 0.0, -20.0</position>
+      <transform>4.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>TRSquare</name>
+    <components>
+      <position>17.0, 0.0, -20.0</position>
+      <transform>4.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>BLSquare</name>
+    <components>
+      <position>-17.0, 0.0, 20.0</position>
+      <transform>4.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>BRSquare</name>
+    <components>
+      <position>17.0, 0.0, 20.0</position>
+      <transform>4.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  // Middle Walls
+  <entity>
+    <name>MLWall</name>
+    <components>
+      <position>-20, 0.0, 0.0</position>
+      <transform>1.0, 1.0, 10.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MRWall</name>
+    <components>
+      <position>20, 0.0, 0.0</position>
+      <transform>1.0, 1.0, 10.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MTWall</name>
+    <components>
+      <position>0.0, 0.0, -16.0</position>
+      <transform>8.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MBWall</name>
+    <components>
+      <position>0.0, 0.0, 16.0</position>
+      <transform>8.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MTWall2</name>
+    <components>
+      <position>0.0, 0.0, -23.75</position>
+      <transform>8.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MBWall2</name>
+    <components>
+      <position>0.0, 0.0, 23.75</position>
+      <transform>8.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MTWall3</name>
+    <components>
+      <position>0.0, 0.0, -13.0</position>
+      <transform>1.0, 1.0, 2.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>MBWall3</name>
+    <components>
+      <position>0.0, 0.0, 13.0</position>
+      <transform>1.0, 1.0, 2.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  // Inner walls
+  <entity>
+    <name>ILWall</name>
+    <components>
+      <position>-10, 0.0, 0.0</position>
+      <transform>1.0, 1.0, 10.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>IRWall</name>
+    <components>
+      <position>10, 0.0, 0.0</position>
+      <transform>1.0, 1.0, 10.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+    <name>IR2Wall</name>
+    <components>
+      <position>13, 0.0, 1.0</position>
+      <transform>2.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/BrickGreyStripe.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>true</collision>
+    </components>
+  </entity>
+  <entity>
+      <name>IL2Wall</name>
+      <components>
+        <position>-13, 0.0, 1.0</position>
+        <transform>2.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+        <texture>Textures/BrickGreyStripe.jpg</texture>
+        <geometry>Geometry/CubeGeometry.txt</geometry>
+        <collision>true</collision>
+      </components>
+    
+  </entity>
+</entities>

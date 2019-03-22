@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity>
+    <name>GhostBlue</name>
+    <components>
+      <position>0.0, 0.0, -8.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/blue.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <velocity>4.0, 0.0, 4.0</velocity>
+      <ai>0.0, 0.0, -8.0</ai>
+    </components>
+  </entity>
+  <entity>
+    <name>GhostRed</name>
+    <components>
+      <position>5.0, 0.0, -6.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/red.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <velocity>1.5, 0.0, 2.0</velocity>
+      <ai>5.0, 0.0, -6.0</ai>
+    </components>
+  </entity>
+  <entity>
+    <name>GhostYellow</name>
+    <components>
+      <position>5.0, 0.0, -12.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/yellow.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <velocity>4.0, 0.0, 2.0</velocity>
+      <ai>5.0, 0.0, -12.0</ai>
+    </components>
+  </entity>
+  <entity>
+    <name>GhostPink</name>
+    <components>
+      <position>5.0, 0.0, -6.0</position>
+      <transform>1.0, 1.0, 1.0, 0.0, 0.0, 0.0</transform>
+      <texture>Textures/pink.jpg</texture>
+      <geometry>Geometry/CubeGeometry.txt</geometry>
+      <collision>false</collision>
+      <velocity>2.0, 0.0, 1.5</velocity>
+      <ai>5.0, 0.0, -6.0</ai>
+    </components>
+  </entity>
+</entities>
